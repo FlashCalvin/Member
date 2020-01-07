@@ -17,7 +17,7 @@ public class NicknameActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nickname);
-        intent = new Intent("");
+        intent = new Intent(this,AgeActivity.class);
 //        findViewById(R.id.inext).setOnClickListener();
         nick = findViewById(R.id.nickname);
     }

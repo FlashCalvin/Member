@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         edNic = findViewById(R.id.user_nickname);
         edAge = findViewById(R.id.user_age);
-        edGen = findViewById(R.id.nickname);
+        edGen = findViewById(R.id.user_gender);
 //        String nic = edNic.getText().toString();
 //        String age = edAge.getText().toString();
 //        String gen = edGen.getText().toString();
